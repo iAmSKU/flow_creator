@@ -27,11 +27,12 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 340,
+        "x": 420,
         "y": 120,
         "wires": [
             [
-                "6eed5784704e8ea3"
+                "6eed5784704e8ea3",
+                "c45c0edbc866998a"
             ]
         ]
     },
@@ -47,8 +48,24 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 640,
-        "y": 100,
+        "x": 860,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c45c0edbc866998a",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 200,
         "wires": []
     }
 ]
